@@ -1,32 +1,40 @@
 import React, { Component } from 'react'
 import { Card, Wrap, Name, Text, Img, Section } from './styled'
 import axios from 'axios'
+// import Personagens from '../Personagens'
 
 
 export default class Cards extends Component {
   state = {
-    personagem: [] as any
+    test: [] as any,
+    personagem: [] as any,
   }
 
   componentDidMount() {
-    axios({
-      method: 'GET',
-      url: 'https://rickandmortyapi.com/api/character',
-    })
-      .then(res => {
-        const personagem: any = res.data.results;
-        this.setState({ personagem })
-        console.log(personagem);
+    const test: any = [];
+    for (let id = 1; id <= 34; id++) {
+      axios({
+        method: 'GET',
+        url: `https://rickandmortyapi.com/api/character?page=${id}`,
       })
+        .then(res => {
+          const personagem: any = res.data.results;
+          console.log(test);
+          Array.prototype.push.apply(test, personagem);
+          console.log(test);
+          this.setState({ test });
+          // console.log(personagem);
+        })
+    }
   }
 
   render() {
     return (
-      <Card >
-        {this.state.personagem.map((person: any) =>
-          <Wrap>
-       
-              <Img src={person.image} alt="" />
+      <Card>
+        {this.state.test.map((person: any) =>
+          <Wrap key={person.id}>
+
+            <Img src={person.image} alt="" />
 
             <Section>
               <Name>{person.name}</Name>
