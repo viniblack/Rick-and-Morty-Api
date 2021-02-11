@@ -62,8 +62,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <br />
  <sub><b>Vini Black</b></sub></a> <a href="https://github.com/viniblack" title="GitHub">👨‍💻 🚀 🖤</a>
 
-Feito por Vini Black 👋🏽 Entre em contato!
-
 [![Twitter Badge](https://img.shields.io/badge/-@BlackVinii-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/BlackVinii)](https://twitter.com/BlackVinii) 
 [![Linkedin Badge](https://img.shields.io/badge/-Vinicius-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/viniblack/)](https://www.linkedin.com/in/viniblack/) 
 [![Gmail Badge](https://img.shields.io/badge/-viniciusslsantana@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:viniciusslsantana@gmail.com)](mailto:viniciusslsantana@gmail.com)
+
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito por Vini Black 👋🏽 [Entre em contato!](https://www.linkedin.com/in/viniblack/)
+
+---
