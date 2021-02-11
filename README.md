@@ -41,7 +41,7 @@ $ npm install
 # Execute a aplicação 
 $ npm start
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000/>
+# O servidor inciará na porta:3000 - acesse http://localhost:3000/
 ```
 ---
 
