@@ -20,7 +20,7 @@
 ## 🎨 Layout
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/rick-and-morty.png" />
+  <img alt="RiclAndMorty" title="#RiclAndMorty" src="./assets/rick-and-morty.png" />
 </h1>
 
 ## 🚀 Como executar o projeto
@@ -28,11 +28,12 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Axios](https://www.npmjs.com/package/axios), [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [styled-components](https://styled-components.com/), [Typescript](https://create-react-app.dev/docs/adding-typescript/). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+[Axios](https://www.npmjs.com/package/axios), [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Styled-Components](https://styled-components.com/), [Typescript](https://create-react-app.dev/docs/adding-typescript/). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/viniblack/Ricka-and-Morty-Api>
+$ git clone https://github.com/viniblack/Ricka-and-Morty-Api
 
 # Instale as dependências
 $ npm install
@@ -40,7 +41,7 @@ $ npm install
 # Execute a aplicação 
 $ npm start
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3000/>
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000/>
 ```
 
 ### 🛠 Tecnologias
