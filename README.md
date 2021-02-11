@@ -2,7 +2,7 @@
   Rick and Morty API
 </h1>
 
-<p align="center"> Projeto para práticar o uso de API</p>
+<p align="center"> Projeto para práticar o consumo de API usando ReactJs e TypeScript</p>
 
 <h4 align="center"> 
 	🚧 Em construção...  🚧
