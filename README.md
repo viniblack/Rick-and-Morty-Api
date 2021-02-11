@@ -43,6 +43,7 @@ $ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000/>
 ```
+---
 
 ### 🛠 Tecnologias
 
@@ -54,8 +55,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Styled-components](https://styled-components.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-### Autor
 ---
+
+### Autor
 
 <a href="https://github.com/viniblack">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51183682?s=460&u=c1f09414d262ca2e62a855b9406881a3a26b5e84&v=4" width="100px;" alt=""/>
@@ -66,6 +68,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![Linkedin Badge](https://img.shields.io/badge/-Vinicius-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/viniblack/)](https://www.linkedin.com/in/viniblack/) 
 [![Gmail Badge](https://img.shields.io/badge/-viniciusslsantana@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:viniciusslsantana@gmail.com)](mailto:viniciusslsantana@gmail.com)
 
+---
 
 ## 📝 Licença
 
