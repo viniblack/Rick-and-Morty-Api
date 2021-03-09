@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, Wrap, Name, Text, Img, Section } from './styled'
+import { Card, Name, Img, Location } from './styled'
 import axios from 'axios'
 // import Personagens from '../Personagens'
 
@@ -12,7 +12,7 @@ export default class Cards extends Component {
 
   componentDidMount() {
     const test: any = [];
-    for (let id = 1; id <= 34; id++) {
+    for (let id = 1; id <= 2; id++) { // são 34 paginas mas estou trabalhando com 2 para facilitar a vida
       axios({
         method: 'GET',
         url: `https://rickandmortyapi.com/api/character?page=${id}`,
@@ -23,7 +23,7 @@ export default class Cards extends Component {
           Array.prototype.push.apply(test, personagem);
           console.log(test);
           this.setState({ test });
-          // console.log(personagem);
+
         })
     }
   }
@@ -32,15 +32,19 @@ export default class Cards extends Component {
     return (
       <Card>
         {this.state.test.map((person: any) =>
-          <Wrap key={person.id}>
-
+          <article key={person.id}>
             <Img src={person.image} alt="" />
-
-            <Section>
-              <Name>{person.name}</Name>
-              <Text>{person.status} - {person.species}</Text>
-            </Section>
-          </Wrap>
+            <div>
+              <Name>
+                <h2>{person.name}</h2>
+                <p>{person.status} - {person.species}</p>
+              </Name>
+              <Location>
+                <span>Last known location:</span>
+                <p>{person.location.name}</p>
+              </Location>
+            </div>
+          </article>
         )}
       </Card>
     )

@@ -1,37 +1,63 @@
 import styled from 'styled-components';
 
 const Card = styled.div`
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 25rem 25rem 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1920px;
+
+  article{
+    display: flex;
+
+    width: 35rem;
+    height: 15rem;
+    background: rgb(60, 62, 68);
+    margin: 1rem;
+   
+  }
 `;
 
-const Section = styled.section`
-padding-left: 1rem;
+const Name = styled.section`
+  padding-top: 0.75rem;
+  height: 5rem;
+  width: 10rem;
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    width: 18rem;
+    margin: 5px;
+  }
+
+  p{
+    margin: 5px;
+  }
 `;
 
-const Wrap = styled.article`
-  background: rgb(60, 62, 68);
-  margin: 1rem;
-  display: flex;
 
+const Location = styled.section`
+  padding-top: 0.75rem;
+  height: 5rem;
+  width: 10rem;
+  span{
+    color: rgb(255 255 255 / 70%);
+    line-height: 
+    
+    rem;
+  }
+  p{
+    width: 18rem;
+    font-size: 1.2rem;
+  }
 `;
 
-const Name = styled.h2`
-  font-size: 1.5rem;
-  color: white;
-  margin: 5px;
-`;
-
-const Text = styled.span`
-  color: white;
-  margin: 5px;
-`;
 
 const Img = styled.img`
-  width: 10rem;
+  width: 15rem;
+  margin-right: 1rem;
 `;
 
 export {
-  Card, Wrap, Name, Text, Img, Section,
+  Card, Name, Img, Location,
 }
