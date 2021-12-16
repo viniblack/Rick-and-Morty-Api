@@ -10,18 +10,14 @@
 
 ### Planejamento
 
-- [x] Criar os cards dos personagens
-- [x] Listar todos os personagens
-- [ ] Fazer páginação 
 - [ ] Criar um menu
-- [ ] Criar filtros para listar os personagens 
 - [ ] Desenvolver o footer
+- [ ] Criar os cards dos personagens
+- [ ] Listar todos os personagens
+- [ ] Criar filtros para listar os personagens 
+- [ ] Fazer páginação 
 
 ## 🎨 Layout
-
-<h1 align="center">
-  <img alt="RiclAndMorty" title="#RiclAndMorty" src="./assets/rick-and-morty.png" />
-</h1>
 
 ## 🚀 Como executar o projeto
 
